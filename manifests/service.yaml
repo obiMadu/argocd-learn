@@ -10,7 +10,7 @@ spec:
       port: 8080
       protocol: TCP
       targetPort: 8080
-      nodePort: 30001
+      nodePort: 30002
   selector:
     app: argo-learn
   type: NodePort
